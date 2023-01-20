@@ -2,14 +2,14 @@
   "name": "github_finder",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://luizfelipemacedoc.github.io/github_finder/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "homepage": "https://luizfelipemacedoc.github.io/github_finder/"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
